@@ -7,4 +7,6 @@ module com.butterworth.superautoneanderthals {
 
     opens com.butterworth.superautoneanderthals to javafx.fxml;
     exports com.butterworth.superautoneanderthals;
+    exports com.butterworth.superautoneanderthals.controller;
+    opens com.butterworth.superautoneanderthals.controller to javafx.fxml;
 }
