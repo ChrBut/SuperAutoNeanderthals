@@ -2,7 +2,7 @@ package com.butterworth.superautoneanderthals.model;
 
 public class GiantClubSwinger extends Neanderthal{
 
-    public GiantClubSwinger(int id){
+    public GiantClubSwinger(long id){
         super(id);
         setInitiative(3);
         setAttack(2);

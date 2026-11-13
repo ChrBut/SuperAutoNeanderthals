@@ -2,19 +2,19 @@ package com.butterworth.superautoneanderthals.model;
 
 public abstract class Neanderthal {
 
-    private int id;
+    private long id;
     private int initiative;
     private int attack;
     private int hp;
     private int position;
     private boolean facingRight;
 
-    public Neanderthal(int id){
+    public Neanderthal(long id){
         this.id = id;
         this.position = -1;
     }
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 

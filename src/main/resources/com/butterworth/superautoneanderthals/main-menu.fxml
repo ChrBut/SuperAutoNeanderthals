@@ -10,8 +10,7 @@
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
 
-
-<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="401.0" prefWidth="401.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="401.0" prefWidth="401.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.butterworth.superautoneanderthals.controller.MainController">
    <children>
       <Pane prefHeight="200.0" prefWidth="200.0">
          <children>
@@ -29,18 +28,18 @@
                   <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
                      <children>
                         <Label text="Select Team 1" textFill="WHITE" />
-                        <ComboBox prefWidth="150.0" />
+                        <ComboBox fx:id="selectedTeam1" prefWidth="150.0" />
                      </children>
                   </VBox>
                   <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
                      <children>
                         <Label text="Select Team 2" textFill="WHITE" />
-                        <ComboBox prefWidth="150.0" />
+                        <ComboBox fx:id="selectedTeam2" prefWidth="150.0" />
                      </children>
                   </VBox>
                </children>
             </HBox>
-            <Button mnemonicParsing="false" text="Team Menu" />
+            <Button mnemonicParsing="false" onAction="#teamMenuClick" text="Team Menu" />
             <Button mnemonicParsing="false" text="Start Game" />
             <Button mnemonicParsing="false" text="Quit" />
          </children>

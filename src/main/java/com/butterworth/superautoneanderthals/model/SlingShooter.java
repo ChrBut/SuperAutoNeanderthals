@@ -2,7 +2,7 @@ package com.butterworth.superautoneanderthals.model;
 
 public class SlingShooter extends Neanderthal{
 
-    public SlingShooter(int id){
+    public SlingShooter(long id){
         super(id);
         setInitiative(3);
         setAttack(1);

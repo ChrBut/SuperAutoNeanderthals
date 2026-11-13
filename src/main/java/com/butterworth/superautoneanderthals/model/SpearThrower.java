@@ -2,7 +2,7 @@ package com.butterworth.superautoneanderthals.model;
 
 public class SpearThrower extends Neanderthal{
 
-    public SpearThrower(int id){
+    public SpearThrower(long id){
         super(id);
         setInitiative(4);
         setAttack(1);
